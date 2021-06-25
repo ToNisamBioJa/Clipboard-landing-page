@@ -1,0 +1,36 @@
+.buttons {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn__green {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 3px solid #2f9580;
+
+  &:hover {
+    border-bottom-color: #61b2a3;
+    background-color: #5dccbb;
+  }
+}
+
+.btn__blue {
+  margin-left: 0.5rem;
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 3px solid #5262dc;
+
+  &:hover {
+    border-bottom-color: #7e87e2;
+    background-color: #8896ff;
+  }
+}

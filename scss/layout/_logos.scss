@@ -1,0 +1,12 @@
+.logos {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__list {
+    padding: 5rem 0;
+    &--item {
+      padding-top: 5rem;
+    }
+  }
+}

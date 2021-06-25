@@ -1,0 +1,105 @@
+@import "base/reset";
+@import "base/globals";
+@import "base/typography";
+
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/intro";
+@import "layout/clipboard";
+@import "layout/workflow";
+@import "layout/logos";
+@import "layout/devices";
+@import "layout/footer";
+
+@import "abstracts/variables";
+
+@media (min-width: 600px) {
+  .header {
+    background-size: cover;
+
+    &__text {
+      padding-bottom: 2rem;
+      font-size: 1.125rem;
+    }
+
+    .btn {
+      padding: 0.8rem 2rem;
+
+      &__green {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: left;
+
+    &__logo {
+      margin-top: 2rem;
+    }
+
+    &__nav {
+      padding-top: 1rem;
+    }
+
+    &__nav--link {
+      padding-top: 1rem;
+    }
+  }
+}
+
+@media (min-width: 930px) {
+  .header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-position: top;
+    background-size: contain;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .features {
+    width: 100%;
+    display: flex;
+
+    &__img {
+      margin-left: -2rem;
+    }
+
+    &__list {
+      margin-top: 0;
+      margin-left: 3rem;
+      text-align: left;
+    }
+  }
+
+  .tools {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: baseline;
+  }
+
+  .logos__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    grid-gap: 2rem;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .features {
+    &__list {
+      margin-top: 5rem;
+      margin-left: 7rem;
+    }
+  }
+}

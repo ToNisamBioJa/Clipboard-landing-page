@@ -1,0 +1,20 @@
+.header {
+  padding: 7.5rem 0 3rem;
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &__container {
+    width: 87%;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__logo {
+    cursor: pointer;
+  }
+  &__title {
+    margin: 3rem 0 1.5rem;
+  }
+}

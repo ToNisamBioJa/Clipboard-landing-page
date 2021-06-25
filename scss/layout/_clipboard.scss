@@ -1,0 +1,22 @@
+.clipboard {
+  width: 87%;
+  margin: 0 auto;
+  padding: 10rem 0 7.5rem;
+  text-align: center;
+
+  &__text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0 3rem;
+  }
+
+  &__img {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__img img {
+    display: block;
+    width: 100%;
+  }
+}

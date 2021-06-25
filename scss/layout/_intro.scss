@@ -1,0 +1,32 @@
+.intro {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__snippets {
+    max-width: 650px;
+    margin: 5rem auto 4.5rem;
+
+    &--title {
+      margin-bottom: 1.2rem;
+    }
+  }
+}
+
+.features {
+  &__img img {
+    display: block;
+    width: 100%;
+  }
+
+  .features__list {
+    &--item {
+      max-width: 350px;
+      margin: 3rem auto 0;
+    }
+
+    &--title {
+      margin-bottom: 1rem;
+    }
+  }
+}

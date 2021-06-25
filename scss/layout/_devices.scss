@@ -1,0 +1,12 @@
+.devices {
+  width: 87%;
+  margin: 0 auto;
+  padding: 5rem 0 0;
+  text-align: center;
+
+  &__text {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 1rem 0 1.5rem;
+  }
+}
